@@ -2,7 +2,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 5px;
     padding: 0;
-    background-color: #8E6DEB;
+    background-color: #9c3a6867;
 }
 
 img {
@@ -10,9 +10,9 @@ img {
     display: block; 
     margin-left: auto; 
     margin-right: auto; 
-    width: 20%;
-    border: 5px solid #1e6deb79;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.233);
+    width: 16%;
+    border: 5px solid #332d30b4;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.281);
 }
 
 h1, p {
@@ -22,53 +22,57 @@ h1, p {
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.281);
     border-radius: 5px;
     margin: 10px;
-    background-color: #551EEB;
+    background-color: #703D55;
 }
-
 
 p {
     font-size: 20px;
     font-weight: bold;
 }
 
+/* Estilos para o nav */
 nav {
-    background-color: #551EEB;
+    background-color: #703D55;
     border-radius: 5px;
     margin: 10px;
-    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.281)
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.281);
 }
-
 
 ul {
     list-style-type: none;
-    padding: 25px;
+    padding: 30px;
     margin: 10px;
     text-align: center;
     padding-top: 25px;    
 }
 
 li  {
-    display: inline; 
+    display: inline-block; 
     margin-right: 10px; 
 }
+
 a {
     text-decoration: none;
     color: white;
     font-weight: bold;
-    padding: 15px;
-    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.425);
-    border-radius: 2px;
+    padding: 22px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.404);
+    border-radius: 5px;
+    display: block;
 }
 
 a:hover{
-        box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.63);
-        background-color: #8E6DEB;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.836);
+    background-color: #F00A75;
 }
 
+/* Estilo para os links dentro da lista */
 ul > li > a {
-    background-color: #1E6BEB;
+    background-color: #332d30b4;
 }
 
+/* Estilos específicos para a classe .menu-principal */
 .menu-principal {
     list-style-type: none;
     padding: 0;
@@ -77,24 +81,32 @@ ul > li > a {
 }
 
 section {
-    background-color: #1E6BEB;
+    background-color: #703D55;
     padding: 35px;
     margin: 20px;
     border-radius: 5px;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.281);
 }
 
+/* Estilos para links dentro de parágrafos dentro de seções */
 section > p > a {
-    background-color: #1E6BEB;
+    background-color: #332d30b4;
 }
 
 .fundo {
-    background-color: #551EEB;
+    background-color: #9C3A67;
     padding: 30px;
     margin: 27px;
 }
 
 footer > p {
-    background-color: #551EEB;
+    background-color: #703D55;
     border-radius: 5px; 
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.281);
+}
+
+@media only screen and (max-width: 600px) {
+    img {
+        width: 50%;
+    }
 }
